@@ -56,7 +56,7 @@ struct MainApp: App {
 					.keyboardShortcut("/", modifiers: [.command])
 				Button("Today", action: {})
 					.keyboardShortcut("1", modifiers: [.command])
-				Button("All Unread", action: {})
+				Button("Unread", action: {})
 					.keyboardShortcut("2", modifiers: [.command])
 				Button("Starred", action: {})
 					.keyboardShortcut("3", modifiers: [.command])
